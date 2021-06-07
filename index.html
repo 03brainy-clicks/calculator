@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div>
+        <h1>Calculator</h1>
+    </div>
+    <div id="outer">
+        <div id="screen">&nbsp;</div>
+        <div id="row1">
+            <button onclick="seven()" onkeypress="">7</button>
+            <button onclick="eight()">8</button>
+            <button onclick="nine()">9</button>
+            <button onclick="divide()" style="background: #ec802f; color: white">
+          ÷
+        </button>
+        </div>
+        <div id="row2">
+            <button onclick="four()">4</button>
+            <button onclick="five()">5</button>
+            <button onclick="six()">6</button>
+            <button onclick="multiply()" style="background: #ec802f; color: white">
+          x
+        </button>
+        </div>
+        <div id="row3">
+            <button onclick="one()">1</button>
+            <button onclick="two()">2</button>
+            <button onclick="three()">3</button>
+            <button onclick="minus()" style="background: #ec802f; color: white">
+          -
+        </button>
+        </div>
+        <div id="row4">
+            <button onclick="zero()">0</button>
+            <button onclick="decimal()">.</button>
+            <button onclick="result()" style="background: rgb(71, 71, 71); color: white">
+          =
+        </button>
+            <button onclick="add()" style="background: #ec802f; color: white">
+          +
+        </button>
+        </div>
+
+        <div class="clean">
+            <button onclick="clean()" class="clear-button">Clear</button>
+        </div>
+    </div>
+    <script src="script.js "></script>
+</body>
+
+</html>

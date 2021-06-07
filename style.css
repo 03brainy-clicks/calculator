@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+    margin: 0px;
+    background: black;
+}
+
+#outer {
+    min-width: 220px;
+    /* 200 */
+    width: 25%;
+    height: 60%;
+    min-height: 300px;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto";
+}
+
+#screen {
+    /* color */
+    background: white;
+    color: rgb(129, 122, 122);
+    /* alignment  */
+    text-align: right;
+    width: 75%;
+    min-width: 190px;
+    min-height: 20px;
+    height: 10%;
+    margin: 10% auto;
+    padding: 4% 3.5%;
+    border-radius: 10px;
+    /* shadow */
+    box-shadow: -2px 2px 9px -1px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: -2px 2px 9px -1px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: -2px 2px 9px -1px rgba(0, 0, 0, 0.33);
+    /* font  */
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+}
+
+#row1,
+#row2,
+#row3,
+#row4 {
+    display: flex;
+    justify-content: space-evenly;
+    background: white;
+}
+
+#row2,
+#row3,
+#row4 {
+    margin-top: 5%;
+}
+
+button {
+    /* color */
+    color: rgb(129, 122, 122);
+    background: white;
+    /* alignment  */
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0px;
+    /* shadow */
+    box-shadow: -2px 2px 9px -1px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: -2px 2px 9px -1px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: -2px 2px 9px -1px rgba(0, 0, 0, 0.33);
+    /* font  */
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* clear  */
+
+.clean {
+    height: 45px;
+    width: 75%;
+    min-width: 200px;
+    margin: auto auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.clear-button {
+    /* color */
+    /* alignment  */
+    height: 45px;
+    width: 100%;
+    /* shadow */
+    box-shadow: -2px 2px 9px -1px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: -2px 2px 9px -1px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: -2px 2px 9px -1px rgba(0, 0, 0, 0.33);
+    /* font  */
+    font-family: "Roboto", sans-serif;
+    background: rgb(71, 71, 71);
+    color: white;
+}
